@@ -1,0 +1,8 @@
+---
+packages:
+  - "weechat"
+  - "ruby"
+  - "lua"
+  - "aspell"
+  - "tcl"
+...

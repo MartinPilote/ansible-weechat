@@ -1,6 +1,8 @@
 ---
+- include_vars: '{{ ansible_distribution }}.yml'
+
 - name: Install package
   package:
-    name: weechat
+    name: "{{packages}}"
     state: latest
 ...
